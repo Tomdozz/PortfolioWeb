@@ -13,6 +13,11 @@ html, body{
     height: 100%;
     width: 100%;
     margin:auto;
-    background: url("background1.jpg") no-repeat 50% 50%;
-    background-size: 100% 110%;
+    background: url("background3.jpg") no-repeat 50% 30%;
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
