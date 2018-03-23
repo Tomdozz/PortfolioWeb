@@ -1,19 +1,17 @@
-html, body{
-    margin:0;
+/*reset style, take away all thingys that the browser have*/
+*{
+    margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
+    border: 0;
 }
-#content{
-    height: 100%;
-    width: 100%;
-    margin:auto;
+html, body{
+    font-family: 'Lato', sans-serif;
 }
-#main{
-    height: 100%;
-    width: 100%;
-    margin:auto;
-    background: url("background3.jpg") no-repeat 50% 30%;
+.paralax{
+    background: url("background3.jpg") no-repeat 50% 30% fixed;
+}
+.paralax-1{
+    background: url("pics/aboutMe.jpg") no-repeat 50% 30% fixed;
 }
 #center{
     position: absolute;
@@ -21,3 +19,20 @@ html, body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+#inner-paralax{
+    height: 100%;
+    width: 100%;
+    margin:auto;
+}
+
+/* .paralax2{
+    background: url("background.jpg") no-repeat 50% 30% fixed;
+} */
+/* 
+#content{
+    height: 100%;
+    width: 100%;
+    margin:auto;
+}
+
+ */
