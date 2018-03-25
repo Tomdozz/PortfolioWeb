@@ -13,6 +13,9 @@ html, body{
 .paralax-1{
     background: url("pics/aboutMe.jpg") no-repeat 50% 30% fixed;
 }
+.paralax-2{
+    background: url("pics/photo.jpg") no-repeat 50% 30% fixed;
+}
 #center{
     position: absolute;
     top: 50%;
@@ -24,15 +27,11 @@ html, body{
     width: 100%;
     margin:auto;
 }
-
-/* .paralax2{
-    background: url("background.jpg") no-repeat 50% 30% fixed;
-} */
-/* 
-#content{
-    height: 100%;
-    width: 100%;
-    margin:auto;
+#counter{
+    position: fixed;
+    left: 90%;
+    top: 60%;
 }
-
- */
+#counter h3{
+    padding-left: 40%;
+}
