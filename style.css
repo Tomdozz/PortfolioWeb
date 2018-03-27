@@ -9,18 +9,25 @@ html, body{
 }
 .paralax{
     background: url("background3.jpg") no-repeat 50% 30% fixed;
+    background-size: cover;
 }
 .paralax-1{
     background: url("pics/aboutMe.jpg") no-repeat 50% 30% fixed;
+    background-size: cover;
 }
 .paralax-2{
     background: url("pics/photo.jpg") no-repeat 50% 30% fixed;
+    background-size: cover;
 }
 #center{
     position: absolute;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+#center h1{
+    font-size: 200%;
 }
 #inner-paralax{
     height: 100%;
@@ -34,4 +41,31 @@ html, body{
 }
 #counter h3{
     padding-left: 40%;
+}
+#menu{
+    left: 90%;
+    top: 5%;
+    max-width: 5vw;
+    position: absolute;
+}
+#menu input{
+    padding-top: 1vh;
+    width: 100%;
+}
+#dropdown-content{
+    display: none;
+}
+#menu:hover #dropdown-content{
+    display: block;
+}
+.btnAnimn{
+    animation: 1s ease-in normal btnAnimation forwards
+}
+@keyframes btnAnimation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
 }
