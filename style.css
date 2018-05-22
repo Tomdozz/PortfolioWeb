@@ -46,6 +46,7 @@ html, body{
     left: 90%;
     top: 5%;
     max-width: 5vw;
+    min-width: 20px;
     position: absolute;
 }
 #menu input{
